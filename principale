@@ -1,10 +1,76 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Il mio sito web!</title>
+	<title>CR</title>
+	<link rel="stylesheet" href="vacanza.css">
+
 </head>
 <body>
-  <h1>Ciao Mondo!</h1>
-  <p>Questo è il mio nuovo sito web su GitHub Pages.</p>
+<form action="register-.php" method="post">
+<div class="h">
+<div class="c">
+<h3> INSERIRE NOME </h3><br>
+<input type="text" id="nome" name="nome" value="vio"> <br>
+</div>
+<div class="c">
+<h3> INSERIRE COGNOME </h3><br>
+<input type="text" id="cognome" name="cognome" value=""> <br>
+</div>
+<div class="c">
+<h3> INSERIRE EMAIL </h3><br>
+<input type="email" id="email" name="email" value=""> <br>
+</div>
+<div class="c">
+<h3> DATA DI NASCITA </h3><br>
+<input class="f" type="date" id="nascita" name="nascita" value=""> <br>
+</div>
+<div class="c">
+<h3> CITTA DI PROVENIENZA </h3><br>
+<select name="citta" value="">
+     <option value="1">sacile</option>
+     <option value="2">cordignano</option>
+     <option value="3">colle umberto</option>
+     <option value="4">francenigo</option>
+     <option value="5">san cassiano</option>
+	 <option value="6">gaiarine</option>
+     <option value="7">montereale</option>
+     <option value="8">fontanafredda</option>
+     <option value="9">porcia</option>
+     <option value="10">fiume veneto</option>
+	  <option value="11">caneva</option>
+	 </select>
+	</div>
+
+</div>
+<br><br><br>
+
+<div class="m">
+	<h3>CON CHE VALUTAZIONI PENSI DI USCIRE</h3>
+<input type="radio" id="60" name="vd" value="1">
+<label for="60">60</label><br>
+<input type="radio" id="61" name="vd" value="2">
+<label for="61">61/70</label><br>
+<input type="radio" id="71" name="vd" value="3">
+<label for="71">71/80</label><br>
+<input type="radio" id="81" name="vd" value="4">
+<label for="81">81/90</label><br>
+<input type="radio" id="91" name="vd" value="5">
+<label for="91">91/100</label><br>
+<input type="radio" id="100" name="vd" value="6">
+<label for="100">100</label><br>
+</div>
+<h3> IN QUALE PROVA PENSI DI AVERE PIU DIFFICOLTA?</h3><br>
+<input type="checkbox" id="prima" name="test" value="1">
+<label for="prima">prima prova</label><br>
+<input type="checkbox" id="seconda" name="test" value="2">
+<label for="seconda">seconda prova </label><br>
+<input type="checkbox" id="colloquio" name="test" value="3">
+<label for="colloquio">colloquio</label><br>
+<h3> ORE PCTO </h3>
+  <input type="number" id="pcto" name="pcto" min="90" max="400"> <br>
+ <input type="submit" value="Invia le tue risposte">
+  <input type="reset" value="cancella">
+</form>
+
 </body>
 </html>
+
