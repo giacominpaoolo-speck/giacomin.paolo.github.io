@@ -1,5 +1,4 @@
 # giacomin.paolo.github.io
-<!DOCTYPE html>
 <html>
 <head>
   <title>Il mio sito web!</title>
