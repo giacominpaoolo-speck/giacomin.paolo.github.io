@@ -1,7 +1,6 @@
 <html>
 <head>
-	<title> </title>
-	<link rel="stylesheet" href="stile.css">
+
 
 </head>
 <body>
